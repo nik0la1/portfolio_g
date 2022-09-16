@@ -725,4 +725,69 @@ table {
 .icons-item__text span {
   font-weight: bold;
   font-size: 48px;
+}
+
+.third-section {
+  position: relative;
+  background: #F0F0F0;
+  min-height: 640px;
+  z-index: 0;
+  overflow: hidden;
+}
+.third-section__right-wraper {
+  max-width: 480px;
+}
+.third-section__container {
+  position: relative;
+  padding-top: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 167px;
+  justify-content: space-between;
+}
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -2;
+}
+.third-section__second-elipse {
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  transform: rotate(-48.2deg);
+}
+
+.title__hr_top {
+  bottom: 75px;
+}
+
+.footer__container {
+  position: relative;
+  min-height: 272px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0;
+}
+.footer__title {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
